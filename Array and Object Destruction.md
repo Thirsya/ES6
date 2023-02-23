@@ -13,7 +13,7 @@ Dengan destrukturisasi array, Anda dapat mengekstraksi nilai dari array dan mene
         console.log(b); // output: 2
         console.log(c); // output: 3
 ```
-Dalam contoh ini, kita mendefinisikan array myArraydengan tiga elemen. Kami kemudian menggunakan destrukturisasi array untuk mengekstrak nilai dari myArraydan menetapkannya ke variabel a, b, dan c.
+Dalam contoh ini, kita mendefinisikan array myArray dengan tiga elemen. Kami kemudian menggunakan destrukturisasi array untuk mengekstrak nilai dari myArraydan menetapkannya ke variabel a, b, dan c.
 
 ## Object Destruction:
 
@@ -26,9 +26,9 @@ Destrukturisasi objek mirip dengan destrukturisasi array, tetapi alih-alih menge
         console.log(y); // output: 2
         console.log(z); // output: 3
 ```
-Dalam contoh ini, kita mendefinisikan objek myObjectdengan tiga properti x, y, dan z. Kami kemudian menggunakan penghancuran objek untuk mengekstrak nilai properti tersebut dan menugaskannya ke variabel x, y, dan z.
+Dalam contoh ini, kita mendefinisikan objek myObject dengan tiga properti x, y, dan z. Kami kemudian menggunakan destrukturisasi objek untuk mengekstrak nilai properti tersebut dan menugaskannya ke variabel x, y, dan z.
 
-Anda juga dapat menggunakan penghancuran objek untuk menetapkan nama alias ke variabel. Berikut contohnya:
+Anda juga dapat menggunakan destrukturisasi objek untuk menetapkan nama alias ke variabel. Berikut contohnya:
 
 ```javascript
         const myObject = { x: 1, y: 2, z: 3 };
@@ -38,12 +38,12 @@ Anda juga dapat menggunakan penghancuran objek untuk menetapkan nama alias ke va
         console.log(b); // output: 2
         console.log(c); // output: 3
 ```
-Dalam contoh ini, kita mendefinisikan objek myObjectdengan tiga properti x, y, dan z. Kami kemudian menggunakan penghancuran objek untuk mengekstraksi nilai properti tersebut dan menugaskannya ke variabel a, b, dan c, masing-masing.
+Dalam contoh ini, kita mendefinisikan objek myObject dengan tiga properti x, y, dan z. Kami kemudian menggunakan destrukturisasi objek untuk mengekstraksi nilai properti tersebut dan menugaskannya ke variabel a, b, dan c, masing-masing.
 
 ## Nested Destructuring
 
-Destrukturisasi juga dapat digunakan dengan array atau objek bersarang. Penghancuran bersarang memungkinkan Anda mengekstrak nilai dari array dan objek bersarang dan menetapkannya ke variabel dengan cara yang ringkas dan mudah dibaca.Berikut beberapa contoh nested array dan penghancuran objek:<br>
-### Penghancuran array bersarang:
+Destrukturisasi juga dapat digunakan dengan array atau objek bersarang. Nested Destructuring memungkinkan Anda mengekstrak nilai dari array dan objek bersarang dan menetapkannya ke variabel dengan cara yang ringkas dan mudah dibaca.Berikut beberapa contoh nested array dan objek destructuring:<br>
+### Nested Array Destruction:
 ```javascript
         const myArray = [1, [2, 3], 4];
         const [a, [b, c], d] = myArray;
@@ -53,9 +53,9 @@ Destrukturisasi juga dapat digunakan dengan array atau objek bersarang. Penghanc
         console.log(c); // output: 3
         console.log(d); // output: 4
 ```
-Dalam contoh ini, kita mendefinisikan array myArraydengan tiga elemen, di mana elemen kedua adalah array bersarang. Kami kemudian menggunakan destrukturisasi array bersarang untuk mengekstrak nilai dari myArraydan menugaskannya ke variabel a, b, c, dan d.
+Dalam contoh ini, kita mendefinisikan array myArray dengan tiga elemen, di mana elemen kedua adalah array bersarang. Kami kemudian menggunakan destrukturisasi array bersarang untuk mengekstrak nilai dari myArraydan menugaskannya ke variabel a, b, c, dan d.
 
-### Penghancuran Objek Bersarang:
+### Nested Object Destruction:
 ```CSS
         const myObject = {
         name: "Alice",
@@ -74,7 +74,7 @@ Dalam contoh ini, kita mendefinisikan array myArraydengan tiga elemen, di mana e
         console.log(city); // output: "Anytown"
         console.log(state); // output: "CA"
 ```
-Dalam contoh ini, kita mendefinisikan objek myObjectdengan tiga properti, di mana addressproperti tersebut adalah objek bersarang. Kami kemudian menggunakan penghancuran objek bersarang untuk mengekstrak nilai dari myObjectdan menugaskannya ke variabel name, age, street, city, dan state.
+Dalam contoh ini, kita mendefinisikan objek myObject dengan tiga properti, di mana address properti tersebut adalah objek bersarang. Kami kemudian menggunakan nested object destruction untuk mengekstrak nilai dari myObject dan menugaskannya ke variabel name, age, street, city, dan state.
 
 Anda juga dapat menetapkan nama alias ke variabel yang didestrukturisasi:
 ```javascript
@@ -85,7 +85,7 @@ Anda juga dapat menetapkan nama alias ke variabel yang didestrukturisasi:
         console.log(a, b, c, d); // output: 1 2 3 4
         console.log(x, y, z, w); // output: 1 2 3 4
 ```
-Dalam contoh ini, kita mendefinisikan array myArraydengan tiga elemen, di mana elemen kedua adalah array bersarang. Kami kemudian menggunakan destrukturisasi array bersarang untuk mengekstrak nilai dari myArraydan menugaskannya ke variabel a, b, c, dan d. Kami kemudian menggunakan destrukturisasi array bersarang lagi untuk menetapkan nilai yang sama ke variabel x, y, z, dan w.
+Dalam contoh ini, kita mendefinisikan array myArray dengan tiga elemen, di mana elemen kedua adalah array bersarang. Kami kemudian menggunakan destrukturisasi array bersarang untuk mengekstrak nilai dari myArray dan menugaskannya ke variabel a, b, c, dan d. Kami kemudian menggunakan destrukturisasi array bersarang lagi untuk menetapkan nilai yang sama ke variabel x, y, z, dan w.
 
 Anda juga dapat menggunakan nilai default untuk perusakan bersarang:
 ```javascript
@@ -100,7 +100,7 @@ Anda juga dapat menggunakan nilai default untuk perusakan bersarang:
 Dalam contoh ini, kita mendefinisikan array myArraydengan tiga elemen, di mana elemen kedua adalah array bersarang dengan hanya satu elemen. Kami kemudian menggunakan destrukturisasi array bersarang untuk mengekstrak nilai dari myArraydan menugaskannya ke variabel a, b, dan c. Kami menetapkan nilai default 0ke c.
 
 ## Penggunaan Array and Object Destruction dalam Javascript ES6
-Penghancuran susunan dan objek adalah fitur canggih dari ES6 yang dapat membantu menyederhanakan kode dan membuatnya lebih ringkas dan mudah dibaca. Berikut adalah beberapa kasus penggunaan umum penghancuran array dan objek di JavaScript ES6:
+Destrukturisasi array dan objek adalah fitur canggih dari ES6 yang dapat membantu menyederhanakan kode dan membuatnya lebih ringkas dan mudah dibaca. Berikut adalah beberapa kasus penggunaan umum destrukturisasi array dan objek di JavaScript ES6:
 <br><br>
 <b>1. Menetapkan elemen array ke variabel:</b><br>
 
@@ -134,7 +134,7 @@ Dalam contoh ini, kami menggunakan destrukturisasi array untuk menukar nilai ada
         }
         myFunction([1, 2, 3]);
 ```
-Dalam contoh ini, kami menggunakan penghancuran struktur array untuk merusak parameter fungsi myFunction.
+Dalam contoh ini, kami menggunakan destrukturisasi struktur array untuk merusak parameter fungsi myFunction.
 <br><br>
 <b>4. Menetapkan properti objek ke variabel:</b><br>
 
@@ -147,7 +147,7 @@ Dalam contoh ini, kami menggunakan penghancuran struktur array untuk merusak par
         console.log(name); // output: "Alice"
         console.log(age); // output: 25
 ```
-Dalam contoh ini, kami menggunakan penghancuran objek untuk menetapkan properti myObjectke variabel namedan age.
+Dalam contoh ini, kami menggunakan destrukturisasi objek untuk menetapkan properti myObject ke variabel name dan age.
 <br><br>
 <b>5. Mengganti nama properti objek:</b><br>
 
@@ -160,7 +160,7 @@ Dalam contoh ini, kami menggunakan penghancuran objek untuk menetapkan properti 
         console.log(name); // output: "Alice"
         console.log(surname); // output: "Smith"
 ```
-Dalam contoh ini, kami menggunakan penghancuran objek untuk mengganti nama properti myObjectdan menugaskannya ke variabel namedan surname.
+Dalam contoh ini, kami menggunakan destrukturisasi objek untuk mengganti nama properti myObject dan menugaskannya ke variabel name dan surname.
 <br><br>
 <b>6. Memberikan nilai default:</b><br>
 
@@ -174,6 +174,6 @@ Dalam contoh ini, kami menggunakan penghancuran objek untuk mengganti nama prope
         console.log(age); // output: 25
         console.log(gender); // output: "unknown"
 ```
-Dalam contoh ini, kami menggunakan penghancuran objek untuk menetapkan properti dari myObjectvariabel name, age, dan gender. Kami memberikan nilai default "unknown"untuk genderproperti jika tidak ditentukan dalam myObject.
+Dalam contoh ini, kami menggunakan destrukturisasi objek untuk menetapkan properti dari myObjectvariabel name, age, dan gender. Kami memberikan nilai default "unknown"untuk genderproperti jika tidak ditentukan dalam myObject.
 
-Secara keseluruhan, penghancuran array dan objek dapat sangat berguna dalam banyak situasi di JavaScript ES6, dan dapat membuat kode Anda lebih ringkas, mudah dibaca, dan efisien.
+Secara keseluruhan, destrukturisasi array dan objek dapat sangat berguna dalam banyak situasi di JavaScript ES6, dan dapat membuat kode Anda lebih ringkas, mudah dibaca, dan efisien.
