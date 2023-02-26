@@ -53,7 +53,7 @@ Destrukturisasi juga dapat digunakan dengan array atau objek bersarang. Nested D
         console.log(c); // output: 3
         console.log(d); // output: 4
 ```
-Dalam contoh ini, kita mendefinisikan array myArray dengan tiga elemen, di mana elemen kedua adalah array bersarang. Kami kemudian menggunakan destrukturisasi array bersarang untuk mengekstrak nilai dari myArraydan menugaskannya ke variabel a, b, c, dan d.
+Dalam contoh ini, kita mendefinisikan array myArray dengan tiga elemen, di mana elemen kedua adalah array bersarang. Kami kemudian menggunakan destrukturisasi array bersarang untuk mengekstrak nilai dari myArray dan menugaskannya ke variabel a, b, c, dan d.
 
 ### Nested Object Destruction:
 ```CSS
@@ -97,7 +97,7 @@ Anda juga dapat menggunakan nilai default untuk perusakan bersarang:
         console.log(c); // output: 0
         console.log(d); // output: 4
 ```
-Dalam contoh ini, kita mendefinisikan array myArraydengan tiga elemen, di mana elemen kedua adalah array bersarang dengan hanya satu elemen. Kami kemudian menggunakan destrukturisasi array bersarang untuk mengekstrak nilai dari myArraydan menugaskannya ke variabel a, b, dan c. Kami menetapkan nilai default 0ke c.
+Dalam contoh ini, kita mendefinisikan array myArray dengan tiga elemen, di mana elemen kedua adalah array bersarang dengan hanya satu elemen. Kami kemudian menggunakan destrukturisasi array bersarang untuk mengekstrak nilai dari myArray dan menugaskannya ke variabel a, b, dan c. Kami menetapkan nilai default 0ke c.
 
 ## Penggunaan Array and Object Destruction dalam Javascript ES6
 Destrukturisasi array dan objek adalah fitur canggih dari ES6 yang dapat membantu menyederhanakan kode dan membuatnya lebih ringkas dan mudah dibaca. Berikut adalah beberapa kasus penggunaan umum destrukturisasi array dan objek di JavaScript ES6:
@@ -111,7 +111,7 @@ Destrukturisasi array dan objek adalah fitur canggih dari ES6 yang dapat membant
         console.log(b); // output: 2
         console.log(c); // output: 3
 ```
-Dalam contoh ini, kami menggunakan destrukturisasi array untuk menetapkan nilai dari myArrayke variabel a, b, dan c. 
+Dalam contoh ini, kami menggunakan destrukturisasi array untuk menetapkan nilai dari myArray ke variabel a, b, dan c. 
 <br><br>
 <b>2. Bertukar variabel:</b><br>
 
